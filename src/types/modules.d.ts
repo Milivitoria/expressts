@@ -36,11 +36,6 @@ declare module 'router' {
     [method: string]: unknown;
   }
 
-  export interface Route {
-    path: string;
-    stack: unknown[];
-  }
-
   const RouterFactory: {
     (options?: RouterOptions): Router;
     new(options?: RouterOptions): Router;
