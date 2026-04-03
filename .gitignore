@@ -9,6 +9,9 @@ npm-shrinkwrap.json
 yarn-error.log
 yarn.lock
 
+# TypeScript compiled output
+/lib/
+
 # Coveralls
 .nyc_output
 coverage
