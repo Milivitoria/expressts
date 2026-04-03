@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "@milivitoria/expressts",
   "description": "Fast, unopinionated, minimalist web framework",
   "version": "5.2.1",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
@@ -117,6 +117,9 @@
   ],
   "main": "lib/express.js",
   "types": "lib/express.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc",
     "build:check": "tsc --noEmit",
